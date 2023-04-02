@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: white;
+  font-size: 16px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+}
+
+.first p {
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+.first h2 {
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+}
+.first h3 {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+.first .topHeader {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  margin: auto;
+  width: 60%;
+}
+.first .topHeader a {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.first .topHeader img {
+  height: auto;
+  max-width: 40px;
+}
+.first .presentation {
+  align-items: center;
+  background-image: url(images/topImage.jpeg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.first .presentation h1 {
+  font-size: 6rem;
+  margin: 0px;
+  width: 700px;
+}
+.first .presentation p {
+  width: 700px;
+  margin-top: 30px;
+}
+.first .announcementsOne {
+  display: flex;
+  height: 300px;
+  width: 100%;
+}
+.first .announcementsOne div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 40px;
+  width: 33.33%;
+}
+.first .announcementsOne div h3 {
+  margin: 0px;
+}
+.first .announcementsOne div p {
+  font-size: 1.1rem;
+  padding: 0px;
+  margin: 8px 0px;
+  width: auto;
+}
+.first .announcementsOne .left_a {
+  background: #333333;
+}
+.first .announcementsOne .center_a {
+  background: #d61729;
+}
+.first .announcementsOne .right_a {
+  background: #383250;
+}
+.first .description {
+  background: #f7fafc;
+  height: 400px;
+}
+.first .description .descriptionContainer {
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 55%;
+}
+.first .description .descriptionContainer h2 {
+  margin: 0px;
+}
+.first .description .descriptionContainer .fullDescription {
+  display: flex;
+  margin: 30px 0px;
+  width: 100%;
+}
+.first .description .descriptionContainer .fullDescription .line {
+  border-top: solid 3px #ceaeb4;
+  margin: 10px 0px;
+  width: 350px;
+}
+.first .description .descriptionContainer .fullDescription p {
+  margin: 0px 20px;
+}
+.first .costumerExperience {
+  background: #383250;
+  height: 900px;
+}
+.first .costumerExperience .costExpContainer {
+  height: 80%;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+.first .costumerExperience .costExpContainer img {
+  height: 100%;
+  width: 100%;
+}
+.first .costumerExperience .costExpContainer div:nth-of-type(1) {
+  grid-column: 1/2;
+  grid-row: 1/5;
+}
+.first .costumerExperience .costExpContainer div:nth-of-type(2) {
+  grid-column: 2/3;
+  grid-row: 1/5;
+}
+.first .costumerExperience .costExpContainer div:nth-of-type(3) {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  grid-column: 3/4;
+  grid-row: 1/7;
+  justify-content: center;
+  padding: 20px;
+}
+.first .costumerExperience .costExpContainer div:nth-of-type(4) {
+  background: #d61729;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  grid-column: 1/2;
+  grid-row: 5/7;
+  justify-content: center;
+  padding: 20px;
+}
+.first .costumerExperience .costExpContainer div:nth-of-type(5) {
+  grid-column: 2/3;
+  grid-row: 5/7;
+}/*# sourceMappingURL=styles.css.map */
